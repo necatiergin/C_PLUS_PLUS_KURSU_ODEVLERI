@@ -6,13 +6,13 @@ Bu ödevde `Date` sınıfının kodlarını yazmanız isteniyor.
 Aşağıdaki açıklamalar kodda bulunan yorum satırlarına ilişkindir:
 
 1. Sınıfın hizmet verdiği en küçük yıl değeri
-2. `random_date` işlevinin üreteceği tarih için en küçük yıl değeri
-3. `random_date` işlevinin üreteceği tarih için en büyük yıl değeri
-4.  Haftanın günü için `enum class` türü
-5. Varsayılan kurucu işlev: `Date` nesnesini `01-01-1900` tarihi ile oluşturacak
-6. `Date` nesnesini gün, ay, yıl değeri ile oluşturacak kurucu işlev
+2. `random_date` işlevinin üreteceği tarih için en küçük yıl değeri.
+3. `random_date` işlevinin üreteceği tarih için en büyük yıl değeri.
+4.  Haftanın günü için `enum class` türü.
+5. Varsayılan kurucu işlev: `Date` nesnesini `01-01-1900` tarihi ile oluşturmalı.
+6. `Date` nesnesini gün, ay, yıl değeri ile oluşturacak kurucu işlev.
 7. `Date` nesnesini formatlanmış  yazıdan alacağı tarih değeri ile oluşturacak. Format: `gg/aa/yil`
-8. `Date` nesnesini `"calender time"` değerinden dönüştüreceği tarih değeri ile oluşturacak.
+8. `Date` nesnesini `"calender time"` değerinden dönüştüreceği tarih değeri ile oluşturmalı.
 9. Ayın gününü döndürüyor.
 10. Ay değerini döndürüyor. `(Ocak 1, Şubat 2, ...)`
 11. Tarihin yıl değerini döndürüyor
@@ -31,12 +31,12 @@ Aşağıdaki açıklamalar kodda bulunan yorum satırlarına ilişkindir:
 24. Sonek `--` operatörünü yükleyen işlev. (İşlevin referans döndürmediğine dikkat ediniz). 
 25. Rastgele bir tarih döndüren sınıfın `static` üye işlevi.
 26. Artık yıl testi yapan sınıfın `static` üye işlevi.
-27. `Date` nesnelerinin karşılaştırılmasını sağlayacak global operatör işlevleri
-28. İki tarih arasındaki gün farkını döndüren global operatör işlevi
-29. Gelen tarihten `n` gün sonrasını döndüren global operatör işlevleri
-30. İçsel `(nested) enum class Weekday` için arttırma ve eksiltme işlevleri
-31. Date nesnelerinin değerlerini çıkış akımlarına yazdıracak global operatör işlevi `(inserter)`
-Formatlama şöyle olmalı:  `31 Ekim 2019 Persembe`
+27. `Date` nesnelerinin karşılaştırılmasını sağlayacak global operatör işlevleri.
+28. İki tarih arasındaki gün farkını döndüren global operatör işlevi.
+29. Gelen tarihten `n` gün sonrasını döndüren global operatör işlevleri.
+30. İçsel `(nested) enum class Weekday` için arttırma ve eksiltme işlevleri.
+31. Date nesnelerinin değerlerini çıkış akımlarına yazdıracak global operatör işlevi `(inserter)`.
+Formatlama şöyle olmalı:  `31 Ekim 2019 Persembe`.
 32. `Date` nesnelerine giriş akımlarından aldığı karakterlerden oluşturulacak değeri yerleştiren global operatör işlevi `(extractor)`
 Formatlama: `gg/aa/yyyy` (ayıraç olarak istenilen bir karakter kullanılabilir.
 
@@ -53,7 +53,7 @@ Formatlama: `gg/aa/yyyy` (ayıraç olarak istenilen bir karakter kullanılabilir
 * Gereksiz yorum satırlarından mümkün olduğu kadar kaçınmalısınız.
 * Yazdığınız kodların doğru çalışıp çalışmadığını sınamak için test kodları yazmalısınız.
 * Derleyicinizin uygun bir `switch`'ini kullanarak mantıksal uyarı iletilerinin hata `(error)` olarak değerlendirilmesini sağlayınız.
-* Gerekli olduğunu düşündüğünüz yerlerde [[nodiscard]] attribute'unu kullanın.
+* Gerekli olduğunu düşündüğünüz yerlerde [[nodiscard]] attribute'unu kullanmalısınız.
 
 
 ```
@@ -71,8 +71,8 @@ public:
 	enum class Weekday {Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday}; //4
 	Date(); //5 
 	Date(int d, int m, int y);  //6
-	Date(const char *p);  //7
-	Date(std::time_t timer); //8
+	explicit Date(const char *p);  //7
+	explicit Date(std::time_t timer); //8
 	int get_month_day()const; //9
 	int get_month()const; //10
 	int get_year()const; //11
