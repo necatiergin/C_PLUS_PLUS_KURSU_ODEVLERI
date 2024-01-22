@@ -24,5 +24,5 @@ int main()
 {
 	func(0ULL);
 }
-
+```
 [ödevin cevabı](https://www.youtube.com/watch?v=Xjl2nA5E_Os)
