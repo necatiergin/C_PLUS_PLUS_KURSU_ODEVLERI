@@ -6,8 +6,8 @@ Bu ödevde `Date` sınıfının kodlarını yazmanız isteniyor.
 Aşağıdaki açıklamalar kodda bulunan yorum satırlarına ilişkindir:
 
 1. Sınıfın hizmet verdiği en küçük yıl değeri (`1900` değerini kullanabilirsiniz.)
-2. `random_date` işlevinin üreteceği tarih için en küçük yıl değeri.
-3. `random_date` işlevinin üreteceği tarih için en büyük yıl değeri.
+2. `random_date` işlevinin üretebileceği en eski tarihin yıl değeri.
+3. `random_date` işlevinin üreyebileceği en yeni tarihin yıl değeri.
 4.  Haftanın günü için `enum class` türü.
 5. Varsayılan kurucu işlev: `Date` nesnesini `01-01-1900` tarihi ile oluşturmalı.
 6. `Date` nesnesini gün, ay, yıl değeri ile oluşturacak kurucu işlev.
