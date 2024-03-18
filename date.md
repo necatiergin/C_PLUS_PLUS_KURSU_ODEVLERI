@@ -56,6 +56,8 @@ Formatlama: `gg/aa/yyyy` (ayıraç olarak istenilen bir karakter kullanılabilir
 * Yazdığınız kodların doğru çalışıp çalışmadığını sınamak için test kodları yazmalısınız.
 * Derleyicinizin uygun bir `switch`'ini kullanarak mantıksal uyarı iletilerinin hata `(error)` olarak değerlendirilmesini sağlayınız.
 * Gerekli olduğunu düşündüğünüz yerlerde `[[nodiscard]] attribute`'unu kullanmalısınız.
+* Ay ve gün isimleri için birer _constexpr_ _lookup table_ kullanabilirsiniz.
+* Şubat ayının _28_ ya da _29_ güne sahip olmasından kaynaklanacak olan kod tekrarından kaçınmak için _2_ boyutlu bir diziyi bir _lookup table_ olarak kullanabilirsiniz.
 
 
 ```
