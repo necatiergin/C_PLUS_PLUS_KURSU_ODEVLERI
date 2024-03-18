@@ -37,8 +37,8 @@ Aşağıdaki açıklamalar kodda bulunan yorum satırlarına ilişkindir:
 30. İçsel `(nested) enum class Weekday` için arttırma ve eksiltme fonksiyonları.
 31. Date nesnelerinin değerlerini bir çıkış akımına _(output stream)_ yazdıracak global operatör fonksiyonu `(inserter)`.
 Formatlama şöyle olmalı:  `31 Ekim 2019 Persembe`.
-32. `Date` nesnelerine bir giriş akımından _(input stream)_ aldığı karakterlerden oluşturulacak değeri yerleştiren global operatör işlevi `(extractor)`
-Formatlama: `gg/aa/yyyy` (ayıraç olarak istenilen bir karakter kullanılabilir.
+32. `Date` nesnelerine bir giriş akımından _(input stream)_ aldığı karakterlerden oluşturulacak değeri yerleştiren global operatör fonksiyonu `(extractor)`
+Formatlama: `gg/aa/yyyy` (ayıraç olarak istenilen bir karakter kullanılabilir).
 
 ### Diğer notlar:
 * Dilediğiniz global fonksiyonları `"friend"` yapabilirsiniz.
