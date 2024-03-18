@@ -16,9 +16,9 @@ Aşağıdaki açıklamalar kodda bulunan yorum satırlarına ilişkindir:
 9. Ayın gününü döndürmeli.
 10. Ay değerini döndürmeli. `(Ocak 1, Şubat 2, ...)`
 11. Tarihin yıl değerini döndürmeli.
-12. Yılın gününü döndürüyor `(01 Ocak ---> 1   31 Aralık---> 365 ya da 366`
-13. Haftanın gününü döndürüyor.
-14. Tarihin ayın günü değerini değiştiriyor.
+12. Yılın gününü döndürmli `(01 Ocak ---> 1   31 Aralık---> 365 ya da 366`
+13. Haftanın gününü döndürmeli.
+14. Tarihin ayın günü değerini değiştirmeli.
 15. Tarihin ayını değiştirmeli.
 16. Tarihin yılını değiştirmeli.
 17. Tarihi değiştirmeli.
