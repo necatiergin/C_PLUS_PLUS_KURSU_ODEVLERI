@@ -11,13 +11,13 @@ Aşağıdaki açıklamalar kodda bulunan yorum satırlarına ilişkindir:
 4.  Haftanın günü için `enum class` türü.
 5.  _Default constructor_ : `Date` nesnesini `01-01-year_base` tarihi ile oluşturmalı.
 6. `Date` nesnesini gün, ay, yıl değerleri ile oluşturacak `constructor`.
-7. `Date` nesnesini formatlanmış  yazıdan alacağı tarih değeri ile oluşturacak. Format: `gg/aa/yil`
-8. `Date` nesnesini `"calender time"` değerinden dönüştüreceği tarih değeri ile oluşturmalı.
-9. Ayın gününü döndürmeli.
+7. `Date` nesnesini formatlanmış  yazıdan alacağı tarih değeri ile oluşturacak `cosntructor`. Format: `gg/aa/yil`
+8. `Date` nesnesini `"calender time"` değerinden dönüştüreceği tarih değeri ile oluşturacak `constructor`.
+9. Ayın günü değerini döndürmeli.
 10. Ay değerini döndürmeli. `(Ocak 1, Şubat 2, ...)`
 11. Tarihin yıl değerini döndürmeli.
-12. Yılın gününü döndürmli `(01 Ocak ---> 1   31 Aralık---> 365 ya da 366`
-13. Haftanın gününü döndürmeli.
+12. Yılın günü değerini döndürmli `(01 Ocak ---> 1   31 Aralık---> 365 ya da 366`
+13. Haftanın günü değerini döndürmeli.
 14. Tarihin ayın günü değerini değiştirmeli.
 15. Tarihin ayını değiştirmeli.
 16. Tarihin yılını değiştirmeli.
