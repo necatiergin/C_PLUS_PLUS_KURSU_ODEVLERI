@@ -49,7 +49,7 @@ Formatlama: `gg/aa/yyyy` (ayıraç olarak istenilen bir karakter kullanılabilir
 * Dilediğiniz fonksiyonları `"constexpr"` yapabilirsiniz.
 * Bu ödevde `"exception handling"` araçlarını kullanmayacağız. (`exception handling` konusunu gördükten sonra kodlarda değişiklik yapacağız.) Fonksiyonlara gönderilen argümanların uygun ve doğru değerler olduğunu varsayabilirsiniz.
 * İsimlendirmeye dikkat etmelisiniz.
-* TUratlı ve kararlı bir `"indentation style"` kullanmalısınız. 
+* Tutarlı ve kararlı bir `"indentation style"` kullanmalısınız. 
 * Kod tekrarından mümkün olduğu kadar kaçınmalısınız.
 * `const` doğruluğuna `(const correctness)` çok dikkat etmelisiniz. `(const olması gereken tüm varlıklar const olmalı)`
 * Gereksiz yorum satırlarından mümkün olduğu kadar kaçınmalısınız.
