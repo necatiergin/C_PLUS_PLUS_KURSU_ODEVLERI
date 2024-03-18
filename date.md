@@ -35,9 +35,9 @@ Aşağıdaki açıklamalar kodda bulunan yorum satırlarına ilişkindir:
 28. İki tarih arasındaki gün farkını döndüren global operatör işlevi.
 29. Gelen tarihten `n` gün sonrasını döndüren global operatör işlevleri.
 30. İçsel `(nested) enum class Weekday` için arttırma ve eksiltme işlevleri.
-31. Date nesnelerinin değerlerini çıkış akımlarına yazdıracak global operatör işlevi `(inserter)`.
+31. Date nesnelerinin değerlerini bir çıkış akımına _(output stream)_ yazdıracak global operatör işlevi `(inserter)`.
 Formatlama şöyle olmalı:  `31 Ekim 2019 Persembe`.
-32. `Date` nesnelerine giriş akımlarından aldığı karakterlerden oluşturulacak değeri yerleştiren global operatör işlevi `(extractor)`
+32. `Date` nesnelerine bir giriş akımından _(input stream)_ aldığı karakterlerden oluşturulacak değeri yerleştiren global operatör işlevi `(extractor)`
 Formatlama: `gg/aa/yyyy` (ayıraç olarak istenilen bir karakter kullanılabilir.
 
 ### Diğer notlar:
