@@ -19,10 +19,10 @@ Aşağıdaki açıklamalar kodda bulunan yorum satırlarına ilişkindir:
 12. Yılın gününü döndürüyor `(01 Ocak ---> 1   31 Aralık---> 365 ya da 366`
 13. Haftanın gününü döndürüyor.
 14. Tarihin ayın günü değerini değiştiriyor.
-15. Tarihin ayını değiştiriyor
-16. Tarihin yılını değiştiriyor.
-17. Tarihi değiştiriyor.
-18. Tarihten gün çıkartan `const` üye operatör işlevi. Geri dönüş değeri elde edilen tarih olacak.
+15. Tarihin ayını değiştirmeli.
+16. Tarihin yılını değiştirmeli.
+17. Tarihi değiştirmeli.
+18. Tarihten gün çıkartan `const` üye operatör işlevi. Geri dönüş değeri elde edilen tarih olmalı.
 19. Tarihi gelen gün kadar arttıran üye operatör işlevi. Geri dönüş değeri `*this` olmalı.
 20. Tarihi gelen gün kadar eksilten üye operatör işlevi. Geri dönüş değeri `*this` olmalı.
 21. Önek `++` operatörünü yükleyen işlev. (İşlevin referans döndürdüğüne dikkat ediniz). 
