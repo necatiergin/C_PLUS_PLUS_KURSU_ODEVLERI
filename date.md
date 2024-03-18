@@ -9,7 +9,7 @@ Aşağıdaki açıklamalar kodda bulunan yorum satırlarına ilişkindir:
 2. `random_date` fonksiyonunun üretebileceği en eski tarihin yıl değeri.
 3. `random_date` fonksiyonunun üreyebileceği en yeni tarihin yıl değeri.
 4.  Haftanın günü için `enum class` türü.
-5.  Varsayılan kurucu fonksiyon: `Date` nesnesini `01-01-year_base` tarihi ile oluşturmalı.
+5.  _Default constructor_ : `Date` nesnesini `01-01-year_base` tarihi ile oluşturmalı.
 6. `Date` nesnesini gün, ay, yıl değerleri ile oluşturacak `constructor`.
 7. `Date` nesnesini formatlanmış  yazıdan alacağı tarih değeri ile oluşturacak. Format: `gg/aa/yil`
 8. `Date` nesnesini `"calender time"` değerinden dönüştüreceği tarih değeri ile oluşturmalı.
