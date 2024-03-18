@@ -9,13 +9,13 @@ Aşağıdaki açıklamalar kodda bulunan yorum satırlarına ilişkindir:
 2. `random_date` işlevinin üretebileceği en eski tarihin yıl değeri.
 3. `random_date` işlevinin üreyebileceği en yeni tarihin yıl değeri.
 4.  Haftanın günü için `enum class` türü.
-5. Varsayılan kurucu işlev: `Date` nesnesini `01-01-1900` tarihi ile oluşturmalı.
-6. `Date` nesnesini gün, ay, yıl değeri ile oluşturacak kurucu işlev.
+5.  Varsayılan kurucu işlev: `Date` nesnesini `01-01-year_base` tarihi ile oluşturmalı.
+6. `Date` nesnesini gün, ay, yıl değerleri ile oluşturacak kurucu işlev.
 7. `Date` nesnesini formatlanmış  yazıdan alacağı tarih değeri ile oluşturacak. Format: `gg/aa/yil`
 8. `Date` nesnesini `"calender time"` değerinden dönüştüreceği tarih değeri ile oluşturmalı.
-9. Ayın gününü döndürüyor.
-10. Ay değerini döndürüyor. `(Ocak 1, Şubat 2, ...)`
-11. Tarihin yıl değerini döndürüyor
+9. Ayın gününü döndürmeli.
+10. Ay değerini döndürmeli. `(Ocak 1, Şubat 2, ...)`
+11. Tarihin yıl değerini döndürmeli.
 12. Yılın gününü döndürüyor `(01 Ocak ---> 1   31 Aralık---> 365 ya da 366`
 13. Haftanın gününü döndürüyor.
 14. Tarihin ayın günü değerini değiştiriyor.
