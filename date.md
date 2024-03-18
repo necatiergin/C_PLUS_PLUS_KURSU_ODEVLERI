@@ -6,11 +6,11 @@ Bu ödevde `Date` sınıfının kodlarını yazmanız isteniyor.
 Aşağıdaki açıklamalar kodda bulunan yorum satırlarına ilişkindir:
 
 1. Sınıfın hizmet verdiği en küçük yıl değeri (`1900` değerini kullanabilirsiniz.)
-2. `random_date` işlevinin üretebileceği en eski tarihin yıl değeri.
-3. `random_date` işlevinin üreyebileceği en yeni tarihin yıl değeri.
+2. `random_date` fonksiyonunun üretebileceği en eski tarihin yıl değeri.
+3. `random_date` fonksiyonunun üreyebileceği en yeni tarihin yıl değeri.
 4.  Haftanın günü için `enum class` türü.
-5.  Varsayılan kurucu işlev: `Date` nesnesini `01-01-year_base` tarihi ile oluşturmalı.
-6. `Date` nesnesini gün, ay, yıl değerleri ile oluşturacak kurucu işlev.
+5.  Varsayılan kurucu fonksiyon: `Date` nesnesini `01-01-year_base` tarihi ile oluşturmalı.
+6. `Date` nesnesini gün, ay, yıl değerleri ile oluşturacak `constructor`.
 7. `Date` nesnesini formatlanmış  yazıdan alacağı tarih değeri ile oluşturacak. Format: `gg/aa/yil`
 8. `Date` nesnesini `"calender time"` değerinden dönüştüreceği tarih değeri ile oluşturmalı.
 9. Ayın gününü döndürmeli.
@@ -22,31 +22,31 @@ Aşağıdaki açıklamalar kodda bulunan yorum satırlarına ilişkindir:
 15. Tarihin ayını değiştirmeli.
 16. Tarihin yılını değiştirmeli.
 17. Tarihi değiştirmeli.
-18. Tarihten gün çıkartan `const` üye operatör işlevi. Geri dönüş değeri elde edilen tarih olmalı.
-19. Tarihi gelen gün kadar arttıran üye operatör işlevi. Geri dönüş değeri `*this` olmalı.
-20. Tarihi gelen gün kadar eksilten üye operatör işlevi. Geri dönüş değeri `*this` olmalı.
-21. Önek `++` operatörünü yükleyen işlev. (İşlevin referans döndürdüğüne dikkat ediniz). 
-22. Sonek `++` operatörünü yükleyen işlev. (İşlevin referans döndürmediğine dikkat ediniz). 
-23. Önek `--` operatörünü yükleyen işlev. (İşlevin referans döndürdüğüne dikkat ediniz). 
-24. Sonek `--` operatörünü yükleyen işlev. (İşlevin referans döndürmediğine dikkat ediniz). 
-25. Rastgele bir tarih döndüren sınıfın `static` üye işlevi.
-26. Artık yıl testi yapan sınıfın `static` üye işlevi.
-27. `Date` nesnelerinin karşılaştırılmasını sağlayacak global operatör işlevleri.
-28. İki tarih arasındaki gün farkını döndüren global operatör işlevi.
-29. Gelen tarihten `n` gün sonrasını döndüren global operatör işlevleri.
-30. İçsel `(nested) enum class Weekday` için arttırma ve eksiltme işlevleri.
-31. Date nesnelerinin değerlerini bir çıkış akımına _(output stream)_ yazdıracak global operatör işlevi `(inserter)`.
+18. Tarihten gün çıkartan `const` üye operatör fonksiyonu. Geri dönüş değeri elde edilen tarih olmalı.
+19. Tarihi gelen gün kadar arttıran üye operatör fonksiyonu. Geri dönüş değeri `*this` olmalı.
+20. Tarihi gelen gün kadar eksilten üye operatör fonksiyonu. Geri dönüş değeri `*this` olmalı.
+21. Önek `++` operatörünü yükleyen fonksiyon. (Fonksiyonun referans döndürdüğüne dikkat ediniz). 
+22. Sonek `++` operatörünü yükleyen fonksiyon. (Fonksiyonun referans döndürmediğine dikkat ediniz). 
+23. Önek `--` operatörünü yükleyen fonksiyon. (Fonksiyonun referans döndürdüğüne dikkat ediniz). 
+24. Sonek `--` operatörünü yükleyen fonksiyon. (Fonksiyonun referans döndürmediğine dikkat ediniz). 
+25. Rastgele bir tarih döndüren sınıfın `static` üye fonksiyonu.
+26. Artık yıl testi yapan sınıfın `static` üye fonksiyonu.
+27. `Date` nesnelerinin karşılaştırılmasını sağlayacak global operatör fonksiyonları.
+28. İki tarih arasındaki gün farkını döndüren global operatör fonksiyonu.
+29. Gelen tarihten `n` gün sonrasını döndüren global operatör fonksiyonları.
+30. İçsel `(nested) enum class Weekday` için arttırma ve eksiltme fonksiyonları.
+31. Date nesnelerinin değerlerini bir çıkış akımına _(output stream)_ yazdıracak global operatör fonksiyonu `(inserter)`.
 Formatlama şöyle olmalı:  `31 Ekim 2019 Persembe`.
 32. `Date` nesnelerine bir giriş akımından _(input stream)_ aldığı karakterlerden oluşturulacak değeri yerleştiren global operatör işlevi `(extractor)`
 Formatlama: `gg/aa/yyyy` (ayıraç olarak istenilen bir karakter kullanılabilir.
 
 ### Diğer notlar:
-* Dilediğiniz global işlevleri `"friend"` yapabilirsiniz.
+* Dilediğiniz global fonksiyonları `"friend"` yapabilirsiniz.
 * Sınıfın `private` arayüzünü dilediğiniz gibi oluşturabilirsiniz.
 * Gerekli görürseniz sınıfın `public` arayüzüne eklemeler yapabilirsiniz.
 * Gerekli görürseniz sınıfın `public` arayüzünde değişiklikler yapabilirsiniz.
 * Sınıfın `public` öğelerinin isimlerini istediğiniz şekilde değiştirebilirsiniz.
-* Dilediğiniz işlevleri `"constexpr"` yapabilirsiniz.
+* Dilediğiniz fonksiyonları `"constexpr"` yapabilirsiniz.
 * Bu ödevde `"exception handling"` araçlarını kullanmayacağız. (`exception handling` konusunu gördükten sonra kodlarda değişiklik yapacağız.) Fonksiyonlara gönderilen argümanların uygun ve doğru değerler olduğunu varsayabilirsiniz.
 * İsimlendirmeye dikkat etmelisiniz.
 * TUratlı ve kararlı bir `"indentation style"` kullanmalısınız. 
