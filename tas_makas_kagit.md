@@ -6,8 +6,8 @@ Oyuncular aynı anda elini açarak bir sembol gösterir:
 - İşaret ve orta parmağın gösterilmesi => Makas
 
 Kazanan aşağıdaki kurallara göre belirlenir:
-- kağıt taşı yener (örter)
-- taş makası yener (kırar)
+- kağıt taşı yener (örter).
+- taş makası yener (kırar).
 - makas kağıdı yener (keser).
 
 Bilgisayar ve gerçek bir oyuncu arasında Taş-Makas-Kağıt oynayan bir program yazınız. 
