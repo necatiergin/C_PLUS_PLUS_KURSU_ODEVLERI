@@ -10,5 +10,5 @@ Kazanan aşağıdaki kurallara göre belirlenir:
 - taş makası yener (kırar).
 - makas kağıdı yener (keser).
 
-Bilgisayar ve gerçek bir oyuncu arasında Taş-Makas-Kağıt oynayan bir program yazınız. <br>
+Bilgisayar ve gerçek bir oyuncu arasında Taş-Makas-Kağıt oynayan bir C++ programı yazınız. <br>
 Oyuncu oyundan çıkmadan önce oyunu n kez oynayabilmelidir.
