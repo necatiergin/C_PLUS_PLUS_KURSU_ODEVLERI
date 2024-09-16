@@ -39,6 +39,7 @@ Aşağıdaki açıklamalar kodda bulunan yorum satırlarına ilişkindir:
 Formatlama şöyle olmalı:  `31 Ekim 2019 Persembe`.
 32. `Date` nesnelerine bir giriş akımından _(input stream)_ aldığı karakterlerden oluşturulacak değeri yerleştiren global operatör fonksiyonu `(extractor)`
 Formatlama: `gg/aa/yyyy` (ayıraç olarak istenilen bir karakter kullanılabilir).
+33.Haftanın gününü hesaplamak için _Sakamuto_ algoritmasını kullanabilirsiniz.
 
 ### Diğer notlar:
 * Dilediğiniz global fonksiyonları `"friend"` yapabilirsiniz.
